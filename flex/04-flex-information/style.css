@@ -24,3 +24,30 @@ img {
   justify-content: center;
   background: #eee;
 }
+
+/* my solution */
+
+.title {
+  text-align: center;
+  margin-bottom: 32px;
+  /* background-color: red; */
+}
+
+.information {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  gap: 52px;
+  /* background-color: papayawhip; */
+}
+
+.one,
+.two,
+.three,
+.four {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 200px;
+  /* border: 1px solid black; */
+}
